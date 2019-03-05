@@ -1,0 +1,6 @@
+framework module Pods_MockingBird {
+  umbrella header "Pods-MockingBird-umbrella.h"
+
+  export *
+  module * { export * }
+}
