@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		37129896CC129F0170ADF971 /* Pods_MockingBird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD920A85A68204AD3BAE149C /* Pods_MockingBird.framework */; };
+		B1EB0BF222308EAD00B3F0C3 /* SearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EB0BF122308EAD00B3F0C3 /* SearchBar+Extension.swift */; };
+		B1EB0BF422308FEC00B3F0C3 /* SwipeTableCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EB0BF322308FEC00B3F0C3 /* SwipeTableCell+Extension.swift */; };
 		B1EC4F9A222F3D1D00AB86A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4F99222F3D1D00AB86A2 /* AppDelegate.swift */; };
 		B1EC4F9C222F3D1D00AB86A2 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4F9B222F3D1D00AB86A2 /* ListController.swift */; };
 		B1EC4F9F222F3D1D00AB86A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EC4F9D222F3D1D00AB86A2 /* Main.storyboard */; };
@@ -15,10 +17,16 @@
 		B1EC4FA4222F3D1E00AB86A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EC4FA2222F3D1E00AB86A2 /* LaunchScreen.storyboard */; };
 		B1EC4FAC222F476F00AB86A2 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4FAB222F476F00AB86A2 /* CategoryController.swift */; };
 		B1EC4FAE222F496E00AB86A2 /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4FAD222F496E00AB86A2 /* PopupController.swift */; };
+		B1EC4FBF222F8AE900AB86A2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4FBE222F8AE900AB86A2 /* CustomCell.swift */; };
+		B1EC4FC1222F8C1C00AB86A2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4FC0222F8C1B00AB86A2 /* Category.swift */; };
+		B1EC4FC3222F8C2600AB86A2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4FC2222F8C2600AB86A2 /* Item.swift */; };
+		B1EC4FC5222F8C8600AB86A2 /* PopupDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EC4FC4222F8C8600AB86A2 /* PopupDelegate+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		666D4C9B52EA5C0BA2FB5B3F /* Pods-MockingBird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingBird.release.xcconfig"; path = "Target Support Files/Pods-MockingBird/Pods-MockingBird.release.xcconfig"; sourceTree = "<group>"; };
+		B1EB0BF122308EAD00B3F0C3 /* SearchBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchBar+Extension.swift"; sourceTree = "<group>"; };
+		B1EB0BF322308FEC00B3F0C3 /* SwipeTableCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipeTableCell+Extension.swift"; sourceTree = "<group>"; };
 		B1EC4F96222F3D1D00AB86A2 /* MockingBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockingBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EC4F99222F3D1D00AB86A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1EC4F9B222F3D1D00AB86A2 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
@@ -28,6 +36,10 @@
 		B1EC4FA5222F3D1E00AB86A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1EC4FAB222F476F00AB86A2 /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
 		B1EC4FAD222F496E00AB86A2 /* PopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupController.swift; sourceTree = "<group>"; };
+		B1EC4FBE222F8AE900AB86A2 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		B1EC4FC0222F8C1B00AB86A2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B1EC4FC2222F8C2600AB86A2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B1EC4FC4222F8C8600AB86A2 /* PopupDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopupDelegate+Extension.swift"; sourceTree = "<group>"; };
 		C46ED854D6AA21586A02142B /* Pods-MockingBird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingBird.debug.xcconfig"; path = "Target Support Files/Pods-MockingBird/Pods-MockingBird.debug.xcconfig"; sourceTree = "<group>"; };
 		DD920A85A68204AD3BAE149C /* Pods_MockingBird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingBird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,16 +86,62 @@
 		B1EC4F98222F3D1D00AB86A2 /* MockingBird */ = {
 			isa = PBXGroup;
 			children = (
-				B1EC4F99222F3D1D00AB86A2 /* AppDelegate.swift */,
+				B1EC4FC8223018EB00AB86A2 /* Model */,
+				B1EC4FC9223018F300AB86A2 /* View */,
+				B1EC4FCA223018FB00AB86A2 /* Controller */,
+				B1EC4FCB2230190600AB86A2 /* Extensions */,
+				B1EC4FCC2230191000AB86A2 /* Supporting Files */,
+			);
+			path = MockingBird;
+			sourceTree = "<group>";
+		};
+		B1EC4FC8223018EB00AB86A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC4FC0222F8C1B00AB86A2 /* Category.swift */,
+				B1EC4FC2222F8C2600AB86A2 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1EC4FC9223018F300AB86A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC4FBE222F8AE900AB86A2 /* CustomCell.swift */,
+				B1EC4F9D222F3D1D00AB86A2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1EC4FCA223018FB00AB86A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				B1EC4FAB222F476F00AB86A2 /* CategoryController.swift */,
 				B1EC4F9B222F3D1D00AB86A2 /* ListController.swift */,
 				B1EC4FAD222F496E00AB86A2 /* PopupController.swift */,
-				B1EC4F9D222F3D1D00AB86A2 /* Main.storyboard */,
-				B1EC4FA0222F3D1E00AB86A2 /* Assets.xcassets */,
-				B1EC4FA2222F3D1E00AB86A2 /* LaunchScreen.storyboard */,
-				B1EC4FA5222F3D1E00AB86A2 /* Info.plist */,
 			);
-			path = MockingBird;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1EC4FCB2230190600AB86A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC4FC4222F8C8600AB86A2 /* PopupDelegate+Extension.swift */,
+				B1EB0BF122308EAD00B3F0C3 /* SearchBar+Extension.swift */,
+				B1EB0BF322308FEC00B3F0C3 /* SwipeTableCell+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1EC4FCC2230191000AB86A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC4F99222F3D1D00AB86A2 /* AppDelegate.swift */,
+				B1EC4FA0222F3D1E00AB86A2 /* Assets.xcassets */,
+				B1EC4FA5222F3D1E00AB86A2 /* Info.plist */,
+				B1EC4FA2222F3D1E00AB86A2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		F14BA85ED6219B93D274D683 /* Frameworks */ = {
@@ -219,9 +277,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1EC4FAE222F496E00AB86A2 /* PopupController.swift in Sources */,
+				B1EB0BF422308FEC00B3F0C3 /* SwipeTableCell+Extension.swift in Sources */,
 				B1EC4F9C222F3D1D00AB86A2 /* ListController.swift in Sources */,
+				B1EC4FBF222F8AE900AB86A2 /* CustomCell.swift in Sources */,
 				B1EC4F9A222F3D1D00AB86A2 /* AppDelegate.swift in Sources */,
+				B1EC4FC3222F8C2600AB86A2 /* Item.swift in Sources */,
+				B1EC4FC5222F8C8600AB86A2 /* PopupDelegate+Extension.swift in Sources */,
 				B1EC4FAC222F476F00AB86A2 /* CategoryController.swift in Sources */,
+				B1EB0BF222308EAD00B3F0C3 /* SearchBar+Extension.swift in Sources */,
+				B1EC4FC1222F8C1C00AB86A2 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7XAGB7UHD;
-				INFOPLIST_FILE = MockingBird/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MockingBird/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,7 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7XAGB7UHD;
-				INFOPLIST_FILE = MockingBird/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MockingBird/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
