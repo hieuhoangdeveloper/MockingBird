@@ -116,6 +116,12 @@ class PopupController: UIViewController, UIImagePickerControllerDelegate, UINavi
     }
     
     
+    @IBAction func popupClosed(_ sender: UIButton) {
+        
+        dismiss(animated: true, completion: nil)
+        
+        
+    }
     
     
     
